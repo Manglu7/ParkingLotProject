@@ -1,5 +1,5 @@
-from models.models import SlotAssignmentStrategyEnum
-from strgy.RandomSlotFindingStgy import RandomSlotFindingStgy
+from models import SlotAssignmentStrategyEnum
+from strategies import RandomSlotFindingStgy
 
 
 class SlotFactory:

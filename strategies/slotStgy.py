@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-from models.models import VehicleType, Slot
+from models import VehicleType, Slot
 
 
 class SlotStgy(ABC):

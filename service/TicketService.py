@@ -1,10 +1,10 @@
 import datetime
 
-from models.models import Ticket, Vehicle, SlotStatus
+from models import Ticket, Vehicle, SlotStatus
 
-from strgy import *
+from strategies import *
 
-from strgy.getSlotFactory import SlotFactory
+from strategies import SlotFactory
 
 
 class TicketService:

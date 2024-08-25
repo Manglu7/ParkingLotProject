@@ -1,4 +1,4 @@
-from models.models import Vehicle
+from models import Vehicle
 
 
 class VehicleRepo:

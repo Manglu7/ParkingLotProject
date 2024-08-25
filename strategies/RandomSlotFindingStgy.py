@@ -1,5 +1,5 @@
-from models.models import VehicleType, Slot, Gate, SlotStatus
-from strgy.slotStgy import SlotStgy
+from models import VehicleType, Slot, Gate, SlotStatus
+from .slotStgy import SlotStgy
 
 
 class RandomSlotFindingStgy(SlotStgy):

@@ -1,4 +1,4 @@
-from models.models import ParkingLot
+from models import ParkingLot
 
 
 class ParkingLotRepo:
